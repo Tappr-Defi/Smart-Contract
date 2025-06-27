@@ -1,0 +1,18 @@
+[package]
+name = "tappr_smart_contract"
+edition = "2024.beta"
+
+[addresses]
+tappr_smart_contract = "0x0"
+#tappr_smart_contract= "0x52f03ac4ac477f9ec51f0e51b9a6d720a311e3a8c0c11cd8c2eeb9eb44d475e5"
+# Declare the address with a placeholder to satisfy the compiler
+
+[dev-addresses]
+#tappr_smart_contract = "0x0"
+# Assign a specific value for testing
+
+[dependencies]
+# Remove explicit Sui dependency to use CLI-injected dependencies
+
+[dev-dependencies]
+
